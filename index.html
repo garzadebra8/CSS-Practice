@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <h1 class="colortext" class="with-border">This is a Platypus</h1>
+    <img src="images/platypus.JPG" alt="A Platypus" class="avatar">
+    
+<div class="m-p">
+    <p class="colortext">Click the button for a fun fact!</p>
+   
+
+ <button onclick="showMessage()" class="Primarybutton">Click Here</button>
+
+
+  <p id="output" class="colortext"></p>
+
+
+  <script>
+    function showMessage() {
+      document.getElementById("output").textContent = "The platypus is a unique mammal known for its duck-bill, webbed feet, and ability to lay eggs. It is native to Australia and is one of the few venomous mammals. Another thing is that platypuses are excellent swimmers and spend much of their time in the water. They use their bill to detect prey underwater, feeding on insects, larvae, and small crustaceans.";
+    }
+  </script>
+
+ </div>
+
+
+</body>
+</html>
